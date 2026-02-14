@@ -5,7 +5,7 @@ namespace Offsets {
 // ======================= 
     // ===== FakeDataModel ===
     // =======================
-    constexpr uintptr_t FakeDataModelPointer = 22222;
+    constexpr uintptr_t FakeDataModelPointer = 0x7D909F8;
     constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
 
     // ======================= 
@@ -54,6 +54,9 @@ namespace Offsets {
     // ======================= 
     // ===== Camera ==========
     // =======================
+    constexpr uintptr_t CameraPointer = 0x0;
+    constexpr uintptr_t CameraPitch = 0x0;
+    constexpr uintptr_t CameraYaw = 0x0;
     constexpr uintptr_t FieldOfView = 0x160;
     constexpr uintptr_t CameraMaxZoomDistance = 0x310;
     constexpr uintptr_t CameraMinZoomDistance = 0x314;
