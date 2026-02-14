@@ -5,7 +5,7 @@ namespace Offsets {
 // ======================= 
     // ===== FakeDataModel ===
     // =======================
-    constexpr uintptr_t FakeDataModelPointer = 0x7D909F0;
+    constexpr uintptr_t FakeDataModelPointer = 0x7D909F8;
     constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
 
     // ======================= 
