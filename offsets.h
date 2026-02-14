@@ -54,9 +54,6 @@ namespace Offsets {
     // ======================= 
     // ===== Camera ==========
     // =======================
-    constexpr uintptr_t CameraPointer = 0x0;
-    constexpr uintptr_t CameraPitch = 0x0;
-    constexpr uintptr_t CameraYaw = 0x0;
     constexpr uintptr_t FieldOfView = 0x160;
     constexpr uintptr_t CameraMaxZoomDistance = 0x310;
     constexpr uintptr_t CameraMinZoomDistance = 0x314;
