@@ -5,13 +5,13 @@ namespace Offsets {
 // ======================= 
     // ===== FakeDataModel ===
     // =======================
-    constexpr uintptr_t FakeDataModelPointer = 0x7D909F8;
+    constexpr uintptr_t FakeDataModelPointer = 0x7E35858;
     constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
 
     // ======================= 
     // ===== VisualEngine ====
     // =======================
-    constexpr uintptr_t VisualEnginePointer = 0x79449E0;
+    constexpr uintptr_t VisualEnginePointer = 0x79E9468;
     constexpr uintptr_t VisualEngine = 0x10;
     constexpr uintptr_t ViewMatrix = 0x120;
 
