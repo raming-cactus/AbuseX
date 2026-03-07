@@ -5,15 +5,15 @@ namespace Offsets {
 // ======================= 
     // ===== FakeDataModel ===
     // =======================
-    constexpr uintptr_t FakeDataModelPointer = 0x7e83168;
+    constexpr uintptr_t FakeDataModelPointer = 0x7F6C228;
     constexpr uintptr_t FakeDataModelToDataModel = 0x1C0;
 
     // ======================= 
     // ===== VisualEngine ====
     // =======================
-    constexpr uintptr_t VisualEnginePointer = 0x7a36cd8;
+    constexpr uintptr_t VisualEnginePointer = 0x7B1F068;
     constexpr uintptr_t VisualEngine = 0x10;
-    constexpr uintptr_t ViewMatrix = 0x120;
+    constexpr uintptr_t ViewMatrix = 0x140;
 
     // ======================= 
     // ===== Instance ========
@@ -43,7 +43,7 @@ namespace Offsets {
     // ===== Humanoid ========
     // =======================
     constexpr uintptr_t WalkSpeed = 0x1D4;
-    constexpr uintptr_t WalkSpeedCheck = 0x3C0;
+    constexpr uintptr_t WalkSpeedCheck = 0x3B8;
     constexpr uintptr_t JumpPower = 0x1B0;
     constexpr uintptr_t HipHeight = 0x1A0;
     constexpr uintptr_t Sit = 0x1DC;
@@ -68,5 +68,5 @@ namespace Offsets {
     constexpr uintptr_t FogEnd = 0x134;
     constexpr uintptr_t FogStart = 0x138;
     constexpr uintptr_t FogColor = 0xFC;
-    constexpr uintptr_t Gravity = 0xA28;
+    constexpr uintptr_t Gravity = 0x1D0;
 }
